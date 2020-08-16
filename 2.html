@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="2.js"></script>
+</head>
+
+<body>
+    <div style="border:2px solid gray;
+     width:50vh; 
+     height: 70vh;
+     background:rgba(0, 0, 0, 0.158);
+      ">
+        <h1 style="display:flex; justify-content:center;color: black;">
+            Login Form
+        </h1>
+        <div style="font-size:20px; color:black; display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        ">
+            Username:
+            <input type="text" name="" id="input" placeholder="Enter username" required style="width:40vh;
+            border:2px solid black;
+            background: none;
+            border-top:none ;
+            border-left:none;
+            border-right:none;
+            ">
+        </div>
+        <br>
+        <br>
+        <div style="font-size:20px; color:black; display: flex;
+        flex-direction: column; margin-left: 10px;
+        ">
+            password:
+            <input type="password" name="" id="pass" placeholder="Enter password" required style="width:40vh;
+            border:2px solid black;
+            background: none;
+            border-top:none ;
+            border-left:none;
+            border-right:none;
+            ">
+        </div>
+        <br>
+        <br>
+        <div style="font-size:20px; color:black; display: flex;
+        flex-direction: column;margin-left: 10px;
+        ">
+            E-mail:
+            <input type="text" name="" id="mail" placeholder="Enter emil " required style="width:40vh;
+            border:2px solid black;
+            background: none;
+            border-top:none ;
+            border-left:none;
+            border-right:none;
+            ">
+        </div>
+        <br>
+        <br>
+        <button id="submit" onclick="submithere()" style="margin-left:120px">SBUMIT </button>
+    </div>
+    <div id="main">
+        <!--clone-->
+        <div id="box" style="visibility: hidden;">
+            <div>please enter username</div>
+            <div>plese enter password</div>
+            <div>please enter E-mail</div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
